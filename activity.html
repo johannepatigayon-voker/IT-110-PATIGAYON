@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Practical Application Activity</title>
+</head>
+<body>
+
+    <h2 id="images-section">Images</h2>
+    <figure>
+        <img src="images/photo1.png" alt="A man standing in front of a house" width="300">
+        <figcaption>The man who cant be moved, taken during 1999</figcaption>
+    </figure>
+
+    <img src="images/photo2.jpg" alt="A capybara riding an Alligator" width="300">
+
+    <img src="images/photo3.jpg" alt="Invokers Sunstrike" width="225">
+
+    
+    <h2>HyperLinks</h2>
+    <a href="dom-tree.png">View my DOM tree screenshot</a>
+    <br>
+    <a href="https://www.youtube.com/watch?v=ar3gqclT21I&list=RDar3gqclT21I&start_radio=1" target="_blank">Watch Mansanitas Yow</a>
+    <br>
+    <a href="mailto:johanne.patigayon@carsu.edu.ph">Email me</a>
+    <br>
+    <a href="#multimedia-section">Jump to Multimedia section</a>
+
+
+    <h2 id="multimedia-section">Multimedia</h2>
+    <audio controls>
+        <source src="media/mp3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <br>
+    <video controls width="300">
+        <source src="media/mp4.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+
+    <h2>Useful Tags</h2>
+    <!-- Using abbr to show the full meaning of HTML on hover -->
+    <abbr title="HyperText Markup Language">HTML</abbr>
+
+    <!-- Using mark to highlight an important word -->
+    <p>Remember to <mark>save your work</mark> often.</p>
+
+    <!-- Using blockquote to cite a quote -->
+    <blockquote>"Trying to do better"</blockquote>
+
+
+    <h2 id="dom-section">HTML DOM</h2>
+    <!--
+        Looking at the DOM tree of my page, the <body> element is the parent
+         of every visible section, including the <figure> element in my Images
+         section. The <figure> element is itself the parent of two children:
+         the <img> tag and the <figcaption> tag, which are siblings sharing
+         the same parent. Similarly, the <video> element is the parent of its
+         <source> element, which tells the browser where to find the video
+         file to play.
+    -->
+
+</body>
+</html>
